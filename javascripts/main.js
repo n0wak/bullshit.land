@@ -141,9 +141,4 @@
     }
 })(jQuery);
 
-var t = new Trianglify({"bleed": 300, "noiseIntensity":0.1, "x_gradient" : ["#774411", "#885522", "#815023", "#996633", "#998877", "#774411"], "y_gradient" : ["#885522", "#A68051", "#815023", "#E1D5AE", "#C4AA80", "#774411"]});
-var pattern = t.generate(document.body.clientWidth, document.body.clientHeight);
-document.body.setAttribute('style', 'background-image: '+pattern.dataUrl);
-
-
 $("section.main img").lake({"scale":1, "waves":10}).attr("src", "images/pcs.png").hide();
