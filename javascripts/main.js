@@ -1,4 +1,4 @@
-(function($) {
+/*(function($) {
     jQuery.fn.lake = function(options) {
         var settings = $.extend({
             'speed':    1,
@@ -141,4 +141,4 @@
     }
 })(jQuery);
 
-$("section.main img").lake({"scale":1, "waves":10}).attr("src", "images/pcs.png").hide();
+$("section.main img").lake({"scale":1, "waves":10}).attr("src", "images/pcs.png").hide();*/
