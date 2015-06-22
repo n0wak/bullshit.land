@@ -1,0 +1,22 @@
+---
+layout: default
+---
+
+<div class="home">
+
+  {{ header }}
+
+  
+    {% for post in site.posts %}
+      <article>
+        <header>
+            <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">💩</a>
+        </header>
+        <section>
+            {{ post.content }}
+        </section>
+      </article>
+    {% endfor %}
+  
+         
+</div>
