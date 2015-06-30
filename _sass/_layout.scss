@@ -1,25 +1,29 @@
 
 article {
-    margin-bottom : 3em;
+    margin-bottom : 1rem;
 
-    header {
+    header, footer {
         text-align : center;
-        margin-bottom : 1rem;
+        margin-bottom : 3.5rem;
     }
 
 }
 
 .site-header {
     text-align : center;
-    margin : 1rem;
+    margin-top : 2rem;
 }
 
 .site-footer {
     text-align : center;
     font-size : 0.75rem;
+    margin-bottom : 2rem;
 }
 
 
+.post-link {
+    font-size : 1.25rem;
+}
 
 
 

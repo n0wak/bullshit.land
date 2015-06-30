@@ -19,8 +19,8 @@ $spacing-unit:     3rem;
 
 $text-color:       #FFF;
 $background-color: #774411;
-$brand-color:      #A17F31;
-$alt-color  :      #A13E31;
+$brand-color:      lighten(#A17F31, 10%);
+$alt-color  :      lighten(#A17F31, 25%);
 
 $grey-color:       #DDD;
 $grey-color-light: lighten($grey-color, 40%);

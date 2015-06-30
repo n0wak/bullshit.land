@@ -4,10 +4,10 @@
     <title>bullshit.land</title>
     <description>Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.
 </description>
-    <link>http://yourdomain.com/</link>
-    <atom:link href="http://yourdomain.com/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Fri, 19 Jun 2015 18:08:34 -0400</pubDate>
-    <lastBuildDate>Fri, 19 Jun 2015 18:08:34 -0400</lastBuildDate>
+    <link>http://bullshit.land/</link>
+    <atom:link href="http://bullshit.land/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Tue, 30 Jun 2015 17:28:18 -0400</pubDate>
+    <lastBuildDate>Tue, 30 Jun 2015 17:28:18 -0400</lastBuildDate>
     <generator>Jekyll v2.5.3</generator>
     
       <item>
@@ -20,8 +20,8 @@
 
 </description>
         <pubDate>Wed, 20 May 2015 00:00:00 -0400</pubDate>
-        <link>http://yourdomain.com/2015/05/20/test.html</link>
-        <guid isPermaLink="true">http://yourdomain.com/2015/05/20/test.html</guid>
+        <link>http://bullshit.land/2015/05/20/test.html</link>
+        <guid isPermaLink="true">http://bullshit.land/2015/05/20/test.html</guid>
         
         
       </item>
@@ -32,8 +32,8 @@
 
 </description>
         <pubDate>Wed, 01 Apr 2015 11:36:30 -0400</pubDate>
-        <link>http://yourdomain.com/jekyll/update/2015/04/01/welcome-to-jekyll.html</link>
-        <guid isPermaLink="true">http://yourdomain.com/jekyll/update/2015/04/01/welcome-to-jekyll.html</guid>
+        <link>http://bullshit.land/jekyll/update/2015/04/01/welcome-to-jekyll.html</link>
+        <guid isPermaLink="true">http://bullshit.land/jekyll/update/2015/04/01/welcome-to-jekyll.html</guid>
         
         
         <category>jekyll</category>

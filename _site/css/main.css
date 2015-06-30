@@ -16,8 +16,9 @@ body {
   line-height: 1.75;
   font-weight: 400;
   color: #FFF;
-  background-color: #774411;
-  -webkit-text-size-adjust: 100%; }
+  /*background-color: $background-color;*/
+  -webkit-text-size-adjust: 100%;
+  background: #774411 url(../img/noise.png); }
 
 /**
  * Set `margin-bottom` to maintain vertical rhythm
@@ -65,17 +66,17 @@ h1, h2, h3, h4, h5, h6 {
  * Links
  */
 a {
-  color: #A17F31;
+  color: #c59d40;
   text-decoration: none; }
 
 section a {
-  border-bottom: 2px solid #A17F31;
-  text-shadow: 0px 2px 5px rgba(0, 0, 0, 0.5); }
+  border-bottom: 1px solid #c59d40;
+  text-shadow: 0px 2px 5px rgba(0, 0, 0, 0.4); }
   section a:visited {
-    border-bottom: 1px dotted #A17F31; }
+    border-bottom: 1px dotted #c59d40; }
   section a:hover {
-    color: #FFF;
-    border-color: #FFF; }
+    color: #d7bb7b;
+    border-color: #d7bb7b; }
 
 /**
  * Blockquotes
@@ -147,18 +148,22 @@ pre {
     fill: #DDD; }
 
 article {
-  margin-bottom: 3em; }
-  article header {
+  margin-bottom: 1rem; }
+  article header, article footer {
     text-align: center;
-    margin-bottom: 1rem; }
+    margin-bottom: 3.5rem; }
 
 .site-header {
   text-align: center;
-  margin: 1rem; }
+  margin-top: 2rem; }
 
 .site-footer {
   text-align: center;
-  font-size: 0.75rem; }
+  font-size: 0.75rem;
+  margin-bottom: 2rem; }
+
+.post-link {
+  font-size: 1.25rem; }
 
 /**
  * Site header

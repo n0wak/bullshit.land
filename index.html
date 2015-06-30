@@ -10,11 +10,14 @@ layout: default
     {% for post in site.posts %}
       <article>
         <header>
-            <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">💩</a>
+            <!-- <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">💩</a> -->
         </header>
         <section>
             {{ post.content }}
         </section>
+        <footer>
+            <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">💩</a>
+        </footer>
       </article>
     {% endfor %}
   

@@ -19,8 +19,9 @@ body {
     line-height: $base-line-height;
     font-weight: 400;
     color: $text-color;
-    background-color: $background-color;
+    /*background-color: $background-color;*/
     -webkit-text-size-adjust: 100%;
+    background : $background-color url(../img/noise.png);
 }
 
 
@@ -95,17 +96,17 @@ a {
     text-decoration : none;
 }
 section a {
-    border-bottom : 2px solid $brand-color;
+    border-bottom : 1px solid $brand-color;
     
-    text-shadow : 0px 2px 5px rgba(0,0,0,0.5);
+    text-shadow : 0px 2px 5px rgba(0,0,0,0.4);
 
     &:visited {
         border-bottom : 1px dotted $brand-color;
     }
 
     &:hover {
-        color: $text-color;
-        border-color : $text-color;
+        color: $alt-color;
+        border-color : $alt-color;
     }
 }
 
