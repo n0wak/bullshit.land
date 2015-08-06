@@ -82,10 +82,11 @@ section a {
  * Blockquotes
  */
 blockquote {
-  color: #DDD;
+  color: #C9C9C9;
   padding-left: 1.5rem;
   font-size: 18px;
-  letter-spacing: -1px;
+  letter-spacing: 0.1en;
+  line-height: 1.5em;
   font-style: italic; }
   blockquote > :last-child {
     margin-bottom: 0; }
@@ -145,7 +146,7 @@ pre {
   height: 16px;
   vertical-align: middle; }
   .icon > svg path {
-    fill: #DDD; }
+    fill: #C9C9C9; }
 
 article {
   margin-bottom: 1rem; }

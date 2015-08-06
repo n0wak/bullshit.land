@@ -118,7 +118,8 @@ blockquote {
     color: $grey-color;
     padding-left: $spacing-unit / 2;
     font-size: 18px;
-    letter-spacing: -1px;
+    letter-spacing: 0.1en;
+	line-height : 1.5em;
     font-style: italic;
 
     > :last-child {
