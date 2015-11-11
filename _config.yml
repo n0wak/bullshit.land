@@ -12,3 +12,4 @@ github_username:  n0wak
 
 # Build settings
 markdown: kramdown
+limit_posts: 5
